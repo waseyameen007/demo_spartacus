@@ -1,5 +1,6 @@
 #registration-form {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   margin: 0 auto;
   padding: 15px;
   border: 1px solid #ccc;
@@ -26,4 +27,11 @@
   color: white;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  #registration-form {
+      width: 100%;
+      padding: 10px;
+  }
 }
